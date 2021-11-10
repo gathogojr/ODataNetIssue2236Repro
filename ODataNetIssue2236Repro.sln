@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODataNetIssue2236Repro", "ODataNetIssue2236Repro\ODataNetIssue2236Repro.csproj", "{B9115C70-F728-48F8-8C75-6AC93478B74D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataNetIssue2236Repro.App", "ODataNetIssue2236Repro.App\ODataNetIssue2236Repro.App.csproj", "{7B7FBC3C-E520-4E53-A458-9A0D3B730965}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9115C70-F728-48F8-8C75-6AC93478B74D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9115C70-F728-48F8-8C75-6AC93478B74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9115C70-F728-48F8-8C75-6AC93478B74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9115C70-F728-48F8-8C75-6AC93478B74D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B7FBC3C-E520-4E53-A458-9A0D3B730965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7FBC3C-E520-4E53-A458-9A0D3B730965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7FBC3C-E520-4E53-A458-9A0D3B730965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7FBC3C-E520-4E53-A458-9A0D3B730965}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2827FEDE-51C7-45F2-9FB3-E2BA5B175D0A}
+	EndGlobalSection
+EndGlobal

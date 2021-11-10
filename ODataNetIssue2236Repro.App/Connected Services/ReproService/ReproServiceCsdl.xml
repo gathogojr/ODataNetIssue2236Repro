@@ -1,0 +1,20 @@
+<edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+  <edmx:DataServices>
+    <Schema Namespace="ODataNetIssue2236Repro.Models" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+      <ComplexType Name="User">
+        <Property Name="UserName" Type="Edm.String" />
+        <Property Name="FirstName" Type="Edm.String" />
+        <Property Name="LastName" Type="Edm.String" />
+        <Property Name="Groups" Type="Collection(Edm.String)" />
+      </ComplexType>
+    </Schema>
+    <Schema Namespace="Default" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+      <Function Name="WhoAmI">
+        <ReturnType Type="ODataNetIssue2236Repro.Models.User" />
+      </Function>
+      <EntityContainer Name="Container">
+        <FunctionImport Name="WhoAmI" Function="Default.WhoAmI" IncludeInServiceDocument="true" />
+      </EntityContainer>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>
